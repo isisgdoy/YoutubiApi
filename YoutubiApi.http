@@ -1,0 +1,8 @@
+// Arquivo que pode ser utiizado para as solicitações ao invés do swagger 
+
+@YoutubiApi_HostAddress = http://localhost:5268
+
+GET {{YoutubiApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
